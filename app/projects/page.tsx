@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
 
@@ -52,11 +53,15 @@ export default function Projects() {
                   key={project.id}
                   className="rounded-[2rem] border border-slate-200/70 bg-white overflow-hidden shadow-xl shadow-slate-900/5 transition hover:shadow-xl hover:shadow-emerald-700/10"
                 >
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover"
-                  />
+                  <div className="relative h-48 w-full">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="p-8">
                     <h3 className="text-2xl font-semibold text-slate-900">
                       {project.title}

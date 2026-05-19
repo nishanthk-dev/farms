@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 interface CarouselImage {
@@ -48,11 +49,13 @@ export default function Carousel() {
     <div className="relative w-full h-screen overflow-hidden">
       <div className="relative w-full h-full">
         {CAROUSEL_IMAGES.map((image, index) => (
-          <img
+          <Image
             key={image.id}
             src={image.src}
             alt={image.title}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+            fill
+            sizes="100vw"
+            className={`absolute inset-0 object-cover transition-opacity duration-500 ${
               index === current ? "opacity-100" : "opacity-0"
             }`}
           />
