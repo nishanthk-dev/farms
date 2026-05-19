@@ -48,15 +48,15 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-lg text-slate-600">
-              Have questions? We'd love to hear from you. Send us a message and
-              we'll respond as soon as possible.
+              Have questions? We&apos;d love to hear from you. Send us a message and
+              we&apos;ll respond as soon as possible.
             </p>
           </div>
 
           {submitted ? (
             <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-6 py-4 text-center">
               <p className="font-semibold text-emerald-900">
-                Thank you for reaching out! We'll get back to you soon.
+                Thank you for reaching out! We&apos;ll get back to you soon.
               </p>
             </div>
           ) : (

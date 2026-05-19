@@ -188,7 +188,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-6xl px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-semibold text-slate-950">They've Found Their Second Home</h2>
+            <h2 className="text-4xl font-semibold text-slate-950">They&apos;ve Found Their Second Home</h2>
             <p className="mt-4 text-lg text-slate-600">
               What our customers say about us
             </p>
@@ -200,7 +200,7 @@ export default function Home() {
                 className="rounded-[2rem] border border-slate-200/70 bg-slate-50 p-8"
               >
                 <p className="text-lg italic text-slate-700 mb-6">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
                 <p className="font-semibold text-slate-900">
                   — {testimonial.name}
