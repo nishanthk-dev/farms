@@ -1,0 +1,5 @@
+- [x] Scaffolded a Next.js app with App Router, TypeScript, Tailwind CSS, and ESLint.
+- [x] Created home page and updated metadata for Hasiru Farms styling.
+- [x] Added pages for About, Projects, Events, Blogs, and Contact.
+- [x] Added a dummy backend API route at `/api/home` with server-side rendered data.
+- [x] Started the Next.js dev server to verify the application runs.

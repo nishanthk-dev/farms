@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7faf3;
+  --surface: #ffffff;
+  --surface-soft: #f3f9ea;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #166534;
+  --accent-soft: #dcfce7;
+  --border: #d6e4c4;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-foreground: var(--text);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("https://hasirufarms.com/wp-content/uploads/2025/08/Hasiru-Farms-Raaga-Desktop_banner.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text);
+    font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  p {
+    line-height: 1.75;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.hero-bg {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)),
+    url("https://hasirufarms.com/wp-content/uploads/2025/08/Hasiru-Farms-Raaga-Desktop_banner.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.section-card {
+  @apply rounded-[2rem] border border-slate-200/70 bg-white/90 p-8 shadow-[0_24px_80px_-48px_rgba(15,23,42,0.35)];
+}
+
+.section-heading {
+  @apply text-3xl font-semibold tracking-tight text-slate-900;
 }
