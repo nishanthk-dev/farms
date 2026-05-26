@@ -105,10 +105,10 @@ export default function Home() {
                 Explore Projects
               </Link>
               <Link
-                href="/booking"
+                href="/contact"
                 className="inline-flex items-center justify-center rounded-full border border-white bg-white/20 backdrop-blur-md px-7 py-3 text-sm font-semibold text-white transition hover:bg-white/30"
               >
-                Book Now
+                Book a visit
               </Link>
             </div>
           </section>

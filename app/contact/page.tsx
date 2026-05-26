@@ -53,6 +53,37 @@ export default function ContactPage() {
             </p>
           </div>
 
+          <section className="mb-12 rounded-3xl border border-slate-200/80 bg-white p-6 shadow-sm">
+            <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <h2 className="text-2xl font-semibold text-slate-900">
+                  Visit us on Google Maps
+                </h2>
+                <p className="text-sm text-slate-500">
+                  See our location and open it directly in Google Maps for directions.
+                </p>
+              </div>
+              <a
+                href="https://www.google.com/maps/place/12%C2%B050'44.5%22N+75%C2%B049'41.0%22E/@12.84584,75.8284323,15z/data=!4m4!3m3!8m2!3d12.845693!4d75.828045?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full border border-emerald-600 bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700"
+              >
+                Open in Google Maps
+              </a>
+            </div>
+
+            <div className="overflow-hidden rounded-3xl border border-slate-200">
+              <iframe
+                title="Google Maps location"
+                src="https://www.google.com/maps/embed?pb=!4v1779798631261!6m8!1m7!1sB44MFSoLhf8QeUHk22rB5A!2m2!1d12.84584001890881!2d75.82843226375164!3f243.96359281437125!4f-16.08143712574848!5f0.4000000000000002"
+                className="h-80 w-full border-0"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
+          </section>
+
           {submitted ? (
             <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-6 py-4 text-center">
               <p className="font-semibold text-emerald-900">
@@ -117,20 +148,20 @@ export default function ContactPage() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full rounded-lg border border-slate-300 px-4 py-2 text-slate-900 placeholder-slate-400 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 0000000000"
                 />
               </div>
 
               <div>
                 <label
-                  htmlFor="subject"
+                  htmlFor="dateOfVisit"
                   className="mb-2 block text-sm font-medium text-slate-700"
                 >
-                  Subject
+                  Date of visit
                 </label>
                 <input
-                  type="text"
-                  id="subject"
+                  type="date"
+                  id="dateOfVisit"
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
