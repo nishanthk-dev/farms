@@ -25,8 +25,9 @@ export default function SiteHeader() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-xl font-semibold tracking-tight text-emerald-900">
-          <Image src="/viv-removebg-preview.png" alt="Vivantha" width={35} height={35} className="inline-block mr-2" /> 
-          <span className="inline-block f">Vivantha Palms</span>       </Link>
+          <Image src="/vivanpalm.png" alt="Vivantha" width={300} height={150} className="inline-block mr-2" /> 
+          {/* <span className="inline-block f">Vivantha Palms</span>       */}
+           </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
           <Link href="/">Home</Link>
           <Link href="/projects">Projects</Link>
