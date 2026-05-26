@@ -40,42 +40,14 @@ export default function Projects() {
           <div className="mx-auto max-w-6xl px-6 lg:px-8">
             <div className="text-center mb-14">
               <h1 className="text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl">
-                Our Projects
+                Vivantha Palms
               </h1>
               <p className="mt-4 text-lg text-slate-600">
                 Explore our beautiful resort farmland projects
               </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {PROJECTS.map((project) => (
-                <div
-                  key={project.id}
-                  className="rounded-[2rem] border border-slate-200/70 bg-white overflow-hidden shadow-xl shadow-slate-900/5 transition hover:shadow-xl hover:shadow-emerald-700/10"
-                >
-                  <div className="relative h-48 w-full">
-                    <Image
-                      src={project.image}
-                      alt={project.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-8">
-                    <h3 className="text-2xl font-semibold text-slate-900">
-                      {project.title}
-                    </h3>
-                    <p className="mt-4 text-slate-600 leading-relaxed">
-                      {project.description}
-                    </p>
-                    <button className="mt-6 inline-flex items-center text-emerald-700 font-semibold hover:text-emerald-900 transition">
-                      Read More →
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <Image src="/Vivanta_plan.png" alt="Vivantha" width={800} height={1150} className="inline mx-auto mb-4 " />
           </div>
         </section>
       </main>

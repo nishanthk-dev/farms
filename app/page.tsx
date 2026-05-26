@@ -90,7 +90,7 @@ export default function Home() {
 
         <main className="relative z-10 min-h-screen flex items-center justify-center">
           <section className="text-center text-white px-6">
-            <h1 className="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl">
+            <h1 className="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl text-[#D4AF37]">
               <Image src="/viv-removebg-preview.png" alt="Vivantha" width={150} height={150} className="inline mx-auto mb-4 " />
             Vivantha Palms
             </h1>
