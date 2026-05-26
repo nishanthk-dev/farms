@@ -13,17 +13,17 @@ const CAROUSEL_IMAGES: CarouselImage[] = [
   {
     id: 1,
     title: "Farmland Resort 1",
-    src: "https://images.unsplash.com/photo-1500382017468-7049fae79249?w=1200&h=600&fit=crop",
+    src: "/chikmagalur-coffee-estate.webp"
   },
   {
     id: 2,
     title: "Farmland Resort 2",
-    src: "https://images.unsplash.com/photo-1500382017468-7049fae79249?w=1200&h=600&fit=crop",
+    src: "/photo-1571244007059-888ae90b5d85.avif",
   },
   {
     id: 3,
     title: "Farmland Resort 3",
-    src: "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&h=600&fit=crop",
+    src: "/photo-1652015496419-58606c1b5d1c.avif",
   },
 ];
 
