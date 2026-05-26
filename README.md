@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project based on a Hasiru Farms-inspired frontend with server-side rendering and dummy API data.
+This is a [Next.js](https://nextjs.org) project based on a Vivantha Palms-inspired frontend with server-side rendering and dummy API data.
 
 ## Getting Started
 

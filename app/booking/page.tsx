@@ -89,9 +89,7 @@ export default function BookingPage() {
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:border-emerald-600 focus:outline-none transition"
                 >
-                  <option>Parva Resort</option>
-                  <option>Brindavan Paradise</option>
-                  <option>Prakruthi Estate</option>
+                  <option>Vivanta palms</option>
                 </select>
               </div>
 

@@ -46,7 +46,7 @@ const STATS: Stat[] = [
 const TESTIMONIALS = [
   {
     name: "Rajesh Kumar",
-    quote: "Hasiru Farms transformed my investment goals. Professional management with visible results.",
+    quote: "Vivantha Palms transformed my investment goals. Professional management with visible results.",
   },
   {
     name: "Priya Sharma",
@@ -90,7 +90,7 @@ export default function Home() {
         <main className="relative z-10 min-h-screen flex items-center justify-center">
           <section className="text-center text-white px-6">
             <h1 className="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl">
-              Welcome to Hasiru Farms
+              Welcome to Vivantha Palms
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-lg leading-8">
               Discover our beautiful resort farmlands and book your perfect getaway today.
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="text-center mb-14">
             <h2 className="text-4xl font-semibold text-slate-950">The Difference We Create</h2>
             <p className="mt-4 text-lg text-slate-600">
-              What makes Hasiru Farms unique
+              What makes Vivantha Palms unique
             </p>
           </div>
           <div className="grid gap-8 lg:grid-cols-4">

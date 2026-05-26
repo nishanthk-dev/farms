@@ -9,7 +9,7 @@ export const homeData = {
     {
       title: "Environmental & Cultural Restoration Commitment",
       description:
-        "Beyond profits, Hasiru Farms is committed to reforesting barren lands, reviving traditional farming practices, and restoring biodiversity, ensuring your investment nurtures both the environment and heritage.",
+        "Beyond profits, Vivantha Palms is committed to reforesting barren lands, reviving traditional farming practices, and restoring biodiversity, ensuring your investment nurtures both the environment and heritage.",
     },
     {
       title: "Sustainable Farming Practices",
@@ -40,14 +40,14 @@ export const homeData = {
     },
   ],
   testimonials: [
-    { name: "John Doe", quote: "Hasiru Farms has transformed my investment into a legacy for my family." },
+    { name: "John Doe", quote: "Vivantha Palms has transformed my investment into a legacy for my family." },
     { name: "Jane Smith", quote: "The sustainable practices and cultural restoration make this more than just land." },
   ],
   events: [
     {
       title: "Brindavan Launch Event",
       description:
-        "THEME: HASIRU FARMS – BRINDAVAN. Brindavan is a place that lets you reconnect with yourself.",
+        "THEME: VIVANTHA PALMS – BRINDAVAN. Brindavan is a place that lets you reconnect with yourself.",
     },
     {
       title: "Parva Launch",

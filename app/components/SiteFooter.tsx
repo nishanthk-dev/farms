@@ -4,7 +4,7 @@ export default function SiteFooter() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-4">
           <div>
-            <h3 className="text-lg font-semibold text-white">Hasiru Farms</h3>
+            <h3 className="text-lg font-semibold text-white">Vivantha Palms</h3>
             <p className="mt-4 max-w-sm text-sm leading-7 text-slate-300">
               Theme-based managed farmlands rooted in sustainability, culture, and long-term legacy.
             </p>
@@ -30,12 +30,12 @@ export default function SiteFooter() {
             <div className="mt-4 space-y-3 text-sm text-slate-300">
               <p>Phone: +91 7607670760</p>
               <p>WhatsApp: +91 7607670760</p>
-              <p>Email: info@hasirufarms.com</p>
+              <p>Email: info@vivanthapalms.com</p>
             </div>
           </div>
         </div>
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-xs text-slate-500">
-          © 2026 Hasiru Farms Enterprises Pvt. Ltd. All rights reserved.
+          © 2026 Vivantha Palms Enterprises Pvt. Ltd. All rights reserved.
         </div>
       </div>
     </footer>

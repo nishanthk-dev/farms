@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Hasiru Farms - Theme Based Managed Farmlands",
+  title: "Vivantha Palms",
   description: "Redefine land ownership with sustainable, tradition-based managed farmlands.",
 };
 
